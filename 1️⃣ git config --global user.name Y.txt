@@ -1,0 +1,73 @@
+Git : git is a version control system that tracks the changes in code ,that allows multiple developers.
+Git hub:Github is a cloud base platform that hosts the git repositories enabling developers to collaborate,manage code,track changes effectively.
+
+ Local files--(git add --all)------------------------> staging area-----(git commit -m message)---------------> commit(changes)-----(git push remotenameBranchname)---------> GitHub
+
+push-git push remotenameBranchname--from local repo to githubrepo
+pull-git pull remotenameBranchname--from githubrepo to local repo
+
+pull:
+ls -a
+git init
+git remote add origin link
+git remote
+git remote -v
+git pull origin main
+
+1️⃣ git config --global user.name "Your Name"
+➡ Sets your Git username globally for all repositories on your system. Replace "Your Name" with your actual name.
+
+2️⃣ git config --global user.email "your-email@example.com"
+➡ Sets your Git email globally, which is used in commit records. Replace "your-email@example.com" with your actual email.
+
+3️⃣ git add .
+➡ Adds all modified and new files in the current directory to the staging area.
+
+4️⃣ git commit -m 'your message'
+➡ Saves the staged changes with a commit message. (Make sure to replace 'your message' with an actual message.)
+
+5️⃣ git remote add origin repoLink
+➡ Links your local repository to a remote repository hosted on platforms like GitHub or GitLab. Replace repoLink with your actual repository URL.
+
+6️⃣ ls -a(normal folder)
+➡ Lists all files, including hidden files, in the current directory.
+
+7️⃣ git status
+➡ Shows the current state of your working directory, including modified, staged, and untracked files.
+
+8️⃣ git log
+➡ Displays the commit history of the repository, showing commit messages, authors, and timestamps.
+
+9️⃣ git push origin branchName
+➡ Pushes the committed changes from your local branch to the remote repository. Replace branchName with the actual branch name.
+
+-------------------
+branch to branch-git checkout
+create new branch-git branch
+
+--------------------------
+git -------create the git
+git config=
+git config --global user.name Sundar140
+git config --global user.email sajjajayasundar140@gmail.com
+git config --list
+--------------------------------
+create the repository
+create one new folder
+right click
+git bash
+ls -a    [create the folder]
+git init [initialize the repository]
+ls -a    [git repo]
+-------------
+ls
+git add.
+git add all[all files]
+git status
+git commit -m "Added index.txt"[commit]
+
+
+
+
+
+
